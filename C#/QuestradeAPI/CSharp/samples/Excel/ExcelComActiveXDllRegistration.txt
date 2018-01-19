@@ -1,0 +1,5 @@
+To register dll for use with Excel:
+C:\windows\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe /codebase /tlb QuestradeAPI.Net.dll
+
+To unregister dll:
+C:\windows\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe /unregister QuestradeAPI.Net.dll

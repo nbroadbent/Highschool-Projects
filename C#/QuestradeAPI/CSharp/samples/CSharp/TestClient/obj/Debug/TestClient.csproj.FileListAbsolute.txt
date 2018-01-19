@@ -1,0 +1,8 @@
+I:\QuestradeAPI\CSharp\samples\CSharp\TestClient\bin\Debug\QuestradeAPI.Net.TestClient.exe.config
+I:\QuestradeAPI\CSharp\samples\CSharp\TestClient\obj\Debug\TestClient.csprojResolveAssemblyReference.cache
+I:\QuestradeAPI\CSharp\samples\CSharp\TestClient\obj\Debug\QuestradeAPI.Net.TestClient.InsertOrderDetailsDlg.resources
+I:\QuestradeAPI\CSharp\samples\CSharp\TestClient\obj\Debug\QuestradeAPI.Net.TestClient.MainForm.resources
+I:\QuestradeAPI\CSharp\samples\CSharp\TestClient\obj\Debug\QuestradeAPI.Net.TestClient.Properties.Resources.resources
+I:\QuestradeAPI\CSharp\samples\CSharp\TestClient\obj\Debug\QuestradeAPI.Net.TestClient.ReplaceOrderDetailsDlg.resources
+I:\QuestradeAPI\CSharp\samples\CSharp\TestClient\obj\Debug\TestClient.csproj.GenerateResource.Cache
+C:\Applications\QuestradeAPI\CSharp\samples\CSharp\TestClient\bin\Debug\QuestradeAPI.Net.TestClient.exe.config

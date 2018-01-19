@@ -1,0 +1,12 @@
+C:\Applications\QuestradeAPI\CSharp\AlgoTraderTest\AlgoTraderTest\bin\Debug\AlgoTraderTest.exe.config
+C:\Applications\QuestradeAPI\CSharp\AlgoTraderTest\AlgoTraderTest\obj\Debug\AlgoTraderTest.csprojResolveAssemblyReference.cache
+C:\Applications\QuestradeAPI\CSharp\AlgoTraderTest\AlgoTraderTest\bin\Debug\AlgoTraderTest.exe
+C:\Applications\QuestradeAPI\CSharp\AlgoTraderTest\AlgoTraderTest\bin\Debug\AlgoTraderTest.pdb
+C:\Applications\QuestradeAPI\CSharp\AlgoTraderTest\AlgoTraderTest\obj\Debug\AlgoTraderTest.exe
+C:\Applications\QuestradeAPI\CSharp\AlgoTraderTest\AlgoTraderTest\obj\Debug\AlgoTraderTest.pdb
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\AlgoTraderTest\bin\Debug\AlgoTraderTest.exe.config
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\AlgoTraderTest\bin\Debug\AlgoTraderTest.exe
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\AlgoTraderTest\bin\Debug\AlgoTraderTest.pdb
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\AlgoTraderTest\obj\Debug\AlgoTraderTest.csprojResolveAssemblyReference.cache
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\AlgoTraderTest\obj\Debug\AlgoTraderTest.exe
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\AlgoTraderTest\obj\Debug\AlgoTraderTest.pdb

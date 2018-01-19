@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0" InitialTargets="InitializeProps">
+	<PropertyGroup>
+		<ProductName>DotNetOpenAuth</ProductName>
+		<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+		<TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+		<DisableFastUpToDateCheck>false</DisableFastUpToDateCheck>
+		<DropsRoot>$(ProjectRoot)drops\$(TargetFrameworkVersion)\$(Configuration)\</DropsRoot>
+		<OutputPath>$(ProjectRoot)bin\$(TargetFrameworkVersion)\$(Configuration)\</OutputPath>
+		<OutputPath45>$(ProjectRoot)bin\v4.5\$(Configuration)\</OutputPath45>
+		<DocOutputPath>$(ProjectRoot)doc\</DocOutputPath>
+		<IntermediatePath>$(ProjectRoot)obj\$(TargetFrameworkVersion)\$(Configuration)\</IntermediatePath>
+		<IntermediatePath45>$(ProjectRoot)obj\v4.5\$(Configuration)\</IntermediatePath45>
+		<BaseIntermediateOutputPath Condition=" '$(BaseIntermediateOutputPath)' == '' ">obj\$(TargetFrameworkVersion)\</BaseIntermediateOutputPath>
+		<ToolsDir>$(ProjectRoot)tools\</ToolsDir>
+		<ZipLevel>6</ZipLevel>
+		<Zip7ToolPath>$(ToolsDir)7-Zip.x86\</Zip7ToolPath>
+		<NuGetToolPath>$(ToolsDir)NuGet\</NuGetToolPath>
+		<ZipFormat Condition=" '$(ZipFormat)' == '' ">.7z</ZipFormat>
+
+		<SignAssembly>true</SignAssembly>
+		<PublicKeyFile Condition="'$(PublicKeyFile)' == ''">$(ProjectRoot)src\official-build-key.pub</PublicKeyFile>
+		<AssemblyOriginatorKeyFile Condition="'$(AssemblyOriginatorKeyFile)' == ''">$(ProjectRoot)src\official-build-key.snk</AssemblyOriginatorKeyFile>
+		<KeyPairContainer Condition="'$(KeyPairContainer)' == ''">DotNetOpenAuth</KeyPairContainer>
+		<PublicKeyToken>d0acff3d13b42a9d</PublicKeyToken>
+		<DelaySign>false</DelaySign>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProductProjectNames Include="
+									   DotNetOpenAuth.Core;
+										 DotNetOpenAuth.Core.UI;
+										 DotNetOpenAuth.Mvc;
+										 Mono.Math;
+										 Org.Mentalis.Security.Cryptography;
+										 DotNetOpenAuth.OpenId;
+										 DotNetOpenAuth.OpenId.UI;
+										 DotNetOpenAuth.OpenId.Provider;
+										 DotNetOpenAuth.OpenId.Provider.UI;
+										 DotNetOpenAuth.OpenId.RelyingParty;
+										 DotNetOpenAuth.OpenId.RelyingParty.UI;
+										 DotNetOpenAuth.OAuth.Common;
+										 DotNetOpenAuth.OAuth;
+										 DotNetOpenAuth.OAuth.Consumer;
+										 DotNetOpenAuth.OAuth.ServiceProvider;
+										 DotNetOpenAuth.OpenIdOAuth;
+										 " />
+		<ProductProjectNames Include="
+										 DotNetOpenAuth.OAuth2;
+										 DotNetOpenAuth.OAuth2.ClientAuthorization;
+										 DotNetOpenAuth.OAuth2.AuthorizationServer;
+										 DotNetOpenAuth.OAuth2.Client;
+										 DotNetOpenAuth.OAuth2.Client.UI;
+										 DotNetOpenAuth.OAuth2.ResourceServer;
+										">
+		</ProductProjectNames>
+		<ProductProjects Include="@(ProductProjectNames->'$(ProjectRoot)src\%(Identity)\%(Identity).csproj')"/>
+
+		<ProjectReferencesToRemove Include="@(ProductProjectNames->'..\..\src\%(Identity)\%(Identity).csproj')" />
+		<AssemblyReferencesToReplaceWith Include="@(ProjectReferencesToRemove->'..\..\Bin-net4.0\$(ProductName).dll')" />
+	</ItemGroup>
+
+	<Import Project="$(ProjectRoot)lib\DotNetOpenAuth.BuildTasks.targets" />
+
+	<Target Name="InitializeProps">
+		<CheckAdminRights>
+			<Output TaskParameter="IsElevated" PropertyName="IsElevated" />
+		</CheckAdminRights>
+		<Message Text="IsElevated = $(IsElevated)" />
+	</Target>
+</Project>

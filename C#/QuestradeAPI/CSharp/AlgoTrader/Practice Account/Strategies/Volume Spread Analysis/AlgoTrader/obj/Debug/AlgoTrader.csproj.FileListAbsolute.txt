@@ -1,0 +1,22 @@
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\AlgoTraderTest\bin\Debug\AlgoTraderTest.exe.config
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\AlgoTraderTest\obj\Debug\AlgoTraderTest.exe
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\AlgoTraderTest\obj\Debug\AlgoTraderTest.pdb
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\AlgoTraderTest\bin\Debug\AlgoTraderTest.exe
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\AlgoTraderTest\bin\Debug\AlgoTraderTest.pdb
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\AlgoTraderTest\obj\Debug\AlgoTrader.csprojResolveAssemblyReference.cache
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\AlgoTraderTest\bin\Debug\Newtonsoft.Json.dll
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Volume Spread Analysis\AlgoTraderTest\bin\Debug\AlgoTraderTest.exe.config
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Volume Spread Analysis\AlgoTraderTest\obj\Debug\AlgoTraderTest.exe
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Volume Spread Analysis\AlgoTraderTest\obj\Debug\AlgoTraderTest.pdb
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Volume Spread Analysis\AlgoTraderTest\bin\Debug\AlgoTraderTest.exe
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Volume Spread Analysis\AlgoTraderTest\bin\Debug\AlgoTraderTest.pdb
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Volume Spread Analysis\AlgoTraderTest\bin\Debug\Newtonsoft.Json.dll
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Volume Spread Analysis\AlgoTraderTest\obj\Debug\AlgoTrader.csprojResolveAssemblyReference.cache
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Volume Spread Analysis\AlgoTraderTest\bin\Debug\AlgoTraderTest.exe.config
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Volume Spread Analysis\AlgoTraderTest\obj\Debug\AlgoTraderTest.exe
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Volume Spread Analysis\AlgoTraderTest\obj\Debug\AlgoTraderTest.pdb
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Volume Spread Analysis\AlgoTraderTest\bin\Debug\AlgoTraderTest.exe
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Volume Spread Analysis\AlgoTraderTest\bin\Debug\AlgoTraderTest.pdb
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Volume Spread Analysis\AlgoTraderTest\bin\Debug\Newtonsoft.Json.dll
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Volume Spread Analysis\AlgoTraderTest\obj\Debug\AlgoTrader.csprojResolveAssemblyReference.cache
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Volume Spread Analysis\AlgoTrader\bin\Debug\AlgoTrader.exe.config

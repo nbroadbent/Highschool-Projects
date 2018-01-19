@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildProjectDirectory), EnlistmentInfo.props))\EnlistmentInfo.props" Condition=" '$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildProjectDirectory), EnlistmentInfo.props))' != '' " />
+	<Import Project="$(MSBuildProjectDirectory)\..\tools\DotNetOpenAuth.automated.props"/>
+
+	<Target Name="BuildIntermediates">
+		<ItemGroup>
+			<ProductTargets Include="Build;GetOutputPath" />
+		</ItemGroup>
+
+		<MSBuild
+			Projects="@(ProductProjects)"
+			Targets="@(ProductTargets)"
+			Properties="TargetFrameworkVersion=v4.5"
+			BuildInParallel="$(BuildInParallel)">
+			<Output TaskParameter="TargetOutputs" ItemName="TargetOutputs45"/>
+		</MSBuild>
+
+		<PropertyGroup>
+			<OutputPath45 Condition=" '%(MSBuildSourceTargetName)' == 'GetOutputPath' ">@(TargetOutputs45)</OutputPath45>
+		</PropertyGroup>
+	</Target>
+
+	<Target Name="Build" DependsOnTargets="BuildIntermediates" Returns="@(NuGetPackages)">
+		<ItemGroup>
+			<NuGetProperties Include="version=$(NuGetPackageVersion)" />
+			<NuGetProperties Include="oauth2version=$(NuGetPackageVersion)" />
+			<NuGetProperties Include="OutputPath45=$(OutputPath45)" />
+			<NuGetProperties Include="IntermediatePath=$(IntermediatePath45)" />
+
+			<NuGetSpecifications Include="*.nuspec" Exclude="DotNetOpenAuth.nuspec">
+				<Symbols>true</Symbols>
+				<PackageVersion>$(NuGetPackageVersion)</PackageVersion>
+			</NuGetSpecifications>
+			<NuGetSpecifications Include="DotNetOpenAuth.nuspec">
+				<PackageVersion>$(NuGetPackageVersion)</PackageVersion>
+			</NuGetSpecifications>
+
+			<NuGetPackages Include="@(NuGetSpecifications->'$(DropsRoot)%(FileName).%(PackageVersion).nupkg')" />
+		</ItemGroup>
+		<PropertyGroup>
+			<_NuGetProperties>@(NuGetProperties)</_NuGetProperties>
+		</PropertyGroup>
+		<ItemGroup>
+			<NuGetSpecifications>
+				<Properties>$(_NuGetProperties);Identity=%(FileName);GeneratedAssemblyInfoSourceFile=$(IntermediatePath45)%(FileName).Version.cs</Properties>
+			</NuGetSpecifications>
+		</ItemGroup>
+
+		<NuGetPack
+			NuSpec="%(NuGetSpecifications.Identity)"
+			OutputPackageDirectory="$(DropsRoot)"
+			Properties="%(NuGetSpecifications.Properties)"
+			Symbols="%(NuGetSpecifications.Symbols)"
+			ToolPath="$(NuGetToolPath)" />
+	</Target>
+
+	<Import Project="$(ProjectRoot)tools\DotNetOpenAuth.automated.targets"/>
+	<Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildProjectDirectory), EnlistmentInfo.targets))\EnlistmentInfo.targets" Condition=" '$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildProjectDirectory), EnlistmentInfo.targets))' != '' " />
+</Project>

@@ -1,0 +1,56 @@
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\AlgoTraderTest\bin\Debug\AlgoTraderTest.exe.config
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\AlgoTraderTest\obj\Debug\AlgoTraderTest.exe
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\AlgoTraderTest\obj\Debug\AlgoTraderTest.pdb
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\AlgoTraderTest\bin\Debug\AlgoTraderTest.exe
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\AlgoTraderTest\bin\Debug\AlgoTraderTest.pdb
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\AlgoTraderTest\obj\Debug\AlgoTrader.csprojResolveAssemblyReference.cache
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\AlgoTraderTest\bin\Debug\Newtonsoft.Json.dll
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Volume Spread Analysis\AlgoTraderTest\bin\Debug\AlgoTraderTest.exe.config
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Volume Spread Analysis\AlgoTraderTest\obj\Debug\AlgoTraderTest.exe
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Volume Spread Analysis\AlgoTraderTest\obj\Debug\AlgoTraderTest.pdb
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Volume Spread Analysis\AlgoTraderTest\bin\Debug\AlgoTraderTest.exe
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Volume Spread Analysis\AlgoTraderTest\bin\Debug\AlgoTraderTest.pdb
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Volume Spread Analysis\AlgoTraderTest\bin\Debug\Newtonsoft.Json.dll
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Volume Spread Analysis\AlgoTraderTest\obj\Debug\AlgoTrader.csprojResolveAssemblyReference.cache
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Volume Spread Analysis\AlgoTraderTest\bin\Debug\AlgoTraderTest.exe.config
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Volume Spread Analysis\AlgoTraderTest\obj\Debug\AlgoTraderTest.exe
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Volume Spread Analysis\AlgoTraderTest\obj\Debug\AlgoTraderTest.pdb
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Volume Spread Analysis\AlgoTraderTest\bin\Debug\AlgoTraderTest.exe
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Volume Spread Analysis\AlgoTraderTest\bin\Debug\AlgoTraderTest.pdb
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Volume Spread Analysis\AlgoTraderTest\bin\Debug\Newtonsoft.Json.dll
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Volume Spread Analysis\AlgoTraderTest\obj\Debug\AlgoTrader.csprojResolveAssemblyReference.cache
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Moving Averages\AlgoTraderTest\bin\Debug\AlgoTraderTest.exe.config
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Moving Averages\AlgoTraderTest\obj\Debug\AlgoTraderTest.exe
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Moving Averages\AlgoTraderTest\obj\Debug\AlgoTraderTest.pdb
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Moving Averages\AlgoTraderTest\bin\Debug\AlgoTraderTest.exe
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Moving Averages\AlgoTraderTest\bin\Debug\AlgoTraderTest.pdb
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Moving Averages\AlgoTraderTest\bin\Debug\Newtonsoft.Json.dll
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Moving Averages\AlgoTraderTest\obj\Debug\AlgoTrader.csprojResolveAssemblyReference.cache
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Moving Averages\AlgoTrader\bin\Debug\Newtonsoft.Json.dll
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Moving Averages\AlgoTrader\obj\Debug\AlgoTrader.csprojResolveAssemblyReference.cache
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Moving Averages\AlgoTrader\bin\Debug\AlgoTrader.exe.config
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Moving Averages\AlgoTrader\bin\Debug\AlgoTrader.exe
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Moving Averages\AlgoTrader\bin\Debug\AlgoTrader.pdb
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Moving Averages\AlgoTrader\obj\Debug\AlgoTrader.exe
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Moving Averages\AlgoTrader\obj\Debug\AlgoTrader.pdb
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Moving Averages\Daytrade\AlgoTrader\bin\Debug\AlgoTrader.exe.config
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Moving Averages\Daytrade\AlgoTrader\obj\Debug\AlgoTrader.exe
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Moving Averages\Daytrade\AlgoTrader\obj\Debug\AlgoTrader.pdb
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Moving Averages\Daytrade\AlgoTrader\bin\Debug\AlgoTrader.exe
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Moving Averages\Daytrade\AlgoTrader\bin\Debug\AlgoTrader.pdb
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Moving Averages\Daytrade\AlgoTrader\bin\Debug\Newtonsoft.Json.dll
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Moving Averages\Daytrade\AlgoTrader\obj\Debug\AlgoTrader.csprojResolveAssemblyReference.cache
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Moving Averages\Daytrade\5-min-10,5\AlgoTrader\bin\Debug\AlgoTrader.exe.config
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Moving Averages\Daytrade\5-min-10,5\AlgoTrader\obj\Debug\AlgoTrader.exe
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Moving Averages\Daytrade\5-min-10,5\AlgoTrader\obj\Debug\AlgoTrader.pdb
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Moving Averages\Daytrade\5-min-10,5\AlgoTrader\bin\Debug\AlgoTrader.exe
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Moving Averages\Daytrade\5-min-10,5\AlgoTrader\bin\Debug\AlgoTrader.pdb
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Moving Averages\Daytrade\5-min-10,5\AlgoTrader\bin\Debug\Newtonsoft.Json.dll
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Moving Averages\Daytrade\5-min-10,5\AlgoTrader\obj\Debug\AlgoTrader.csprojResolveAssemblyReference.cache
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Strategies\Moving Averages\Daytrade\5-min-10,5\AlgoTrader\bin\Debug\AlgoTrader.exe.config
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Strategies\Moving Averages\Daytrade\5-min-10,5\AlgoTrader\obj\Debug\AlgoTrader.exe
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Strategies\Moving Averages\Daytrade\5-min-10,5\AlgoTrader\obj\Debug\AlgoTrader.pdb
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Strategies\Moving Averages\Daytrade\5-min-10,5\AlgoTrader\bin\Debug\AlgoTrader.exe
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Strategies\Moving Averages\Daytrade\5-min-10,5\AlgoTrader\bin\Debug\AlgoTrader.pdb
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Strategies\Moving Averages\Daytrade\5-min-10,5\AlgoTrader\bin\Debug\Newtonsoft.Json.dll
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\Practice Account\Strategies\Moving Averages\Daytrade\5-min-10,5\AlgoTrader\obj\Debug\AlgoTrader.csprojResolveAssemblyReference.cache

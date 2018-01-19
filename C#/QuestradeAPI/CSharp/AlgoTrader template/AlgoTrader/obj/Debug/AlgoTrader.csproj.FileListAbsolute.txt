@@ -1,0 +1,15 @@
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\AlgoTraderTest\bin\Debug\AlgoTraderTest.exe.config
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\AlgoTraderTest\obj\Debug\AlgoTraderTest.exe
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\AlgoTraderTest\obj\Debug\AlgoTraderTest.pdb
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\AlgoTraderTest\bin\Debug\AlgoTraderTest.exe
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\AlgoTraderTest\bin\Debug\AlgoTraderTest.pdb
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\AlgoTraderTest\obj\Debug\AlgoTrader.csprojResolveAssemblyReference.cache
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader\AlgoTraderTest\bin\Debug\Newtonsoft.Json.dll
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader template\AlgoTraderTest\bin\Debug\AlgoTraderTest.exe.config
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader template\AlgoTraderTest\obj\Debug\AlgoTraderTest.exe
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader template\AlgoTraderTest\obj\Debug\AlgoTraderTest.pdb
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader template\AlgoTraderTest\bin\Debug\AlgoTraderTest.exe
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader template\AlgoTraderTest\bin\Debug\AlgoTraderTest.pdb
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader template\AlgoTraderTest\bin\Debug\Newtonsoft.Json.dll
+C:\Applications\QuestradeAPI\CSharp\AlgoTrader template\AlgoTraderTest\obj\Debug\AlgoTrader.csprojResolveAssemblyReference.cache
+F:\QuestradeAPI\CSharp\AlgoTrader template\AlgoTrader\bin\Debug\AlgoTrader.exe.config

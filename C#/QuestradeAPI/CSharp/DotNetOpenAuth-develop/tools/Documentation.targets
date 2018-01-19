@@ -1,0 +1,30 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<PropertyGroup>
+		<NetfxVer>4.5</NetfxVer>
+		<TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+		<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+		<ProjectRoot Condition="'$(ProjectRoot)' == ''">$(MSBuildProjectDirectory)\..\..\</ProjectRoot>
+		<OutputAssembly>DotNetOpenAuth</OutputAssembly>
+		<DocOutputPath>$(ProjectRoot)doc\</DocOutputPath>
+		<DocumentationFile>$(OutputPath)$(ProductName).xml</DocumentationFile>
+	</PropertyGroup>
+
+	<Import Project="$(ProjectRoot)Tools\sandcastle.targets" />
+
+	<Target Name="CollectMRefDependencies">
+		<MSBuild
+			Projects="@(ProductProjects)"
+			Targets="ResolveAssemblyReferences"
+			BuildInParallel="$(BuildInParallel)">
+			<Output TaskParameter="TargetOutputs" ItemName="MRefDependencies" />
+		</MSBuild>
+
+		<MSBuild
+			Projects="@(ProductProjects)"
+			Targets="GetTargetPath"
+			BuildInParallel="$(BuildInParallel)">
+			<Output TaskParameter="TargetOutputs" ItemName="OutputAssemblyFiles"/>
+		</MSBuild>
+	</Target>
+
+</Project>
